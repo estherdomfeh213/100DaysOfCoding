@@ -51,3 +51,15 @@ Now if you want to call a lambda function, you will use an approach known as imm
 
 >> 6
 
+Parameters 
+Function parameters are variables defined in the function's declaration. 
+  - Types of Parameters
+     1. Positional Parameters: Parameters passed based on their position in the function call.
+     2. Keyword Parameters: Parameters passed with their corresponding variable names.
+     3. Default Parameters: Parameters with predefined default values. 
+     4. Variable-length Parameters: Parameters that can accept a variable number of arguments.
+
+ example: 
+  def calculate_area(length,width):
+    area =  length * width
+    return area 
