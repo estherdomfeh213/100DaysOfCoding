@@ -94,3 +94,16 @@ print(f"{greeting}, {name}!")
 greet(greeting="Hello", name="Bob")
 Here, "Hello" is passed as the greeting argument and "Bob" as the name argument. The order of arguments does not affect the outcome because they are explicitly named.
 Arguments in Python functions can also have default values, making them optional when the function is called. This flexibility allows functions to handle various scenarios without needing all arguments to be provided each time they are called.
+
+
+Local VS Global Scope 
+- Local Scope
+  A variable created inside a function belongs to the local scope of that function, and can only be used inside that function.
+  ExampleGet your own Python Server
+A variable created inside a function is available inside that function:
+
+def myfunc():
+  x = 300
+  print(x)
+
+myfunc()
