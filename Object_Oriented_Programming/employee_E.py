@@ -23,7 +23,7 @@ class Employee:
 # Create an instance of Employee class
 employee1 = Employee('Benjamin')
 
-
 print(employee1.get_name())
 print(employee1.get_salary())
 print(employee1.set_salary(200))
+print(employee1.get_salary())
