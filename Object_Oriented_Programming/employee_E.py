@@ -13,10 +13,10 @@ class Employee:
   
   def set_salary(self, new_salary):
     if new_salary > self._salary:
-      self._salary += new_salary
-      return f"{new_salary} has been added to your salary. Updated salary: {self._salary}"
+      self._salary =  new_salary # update salary , dont all (+=)
+      return f"Salary updated to: {self._salary}"
     else: 
-      return "Salary low, can't update!"
+       return f"New salary {new_salary} is lower or equal to the current salary. Update rejected."
   
   
   
