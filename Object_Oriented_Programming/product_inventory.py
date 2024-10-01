@@ -10,22 +10,26 @@ class Product:
     self._price = price
     self._stock = stock
     
-# get_price(): Returns the price of the product.
+# Returns the price of the product.
   def get_price(self):
-    return f"{self._name} is ${self._price}, {self._stock} available"
+    return f"Price of {self._name}: ${self._price:.2f}" # The price is now formatted to 2 decimal places using .2f to make it look more like real-world pricing.
   
-# add_stock(amount): Increases the stock by a specified amount.
+  # Returns the stocks available 
+  def get_stock(self):
+    return f"Stock for {self._name}: {self._stock} units"
+  
+# Increases the stock by a specified amount.
   def add_stock(self, amount):
     self._stock += amount
-    return f"Available stock: {self._stock}"
+    return f"New stock for {self._name}: {self._stock} units"
     
-# sell(amount): Reduces the stock by the specified amount (but only if enough stock is available).
+# Reduces the stock by the specified amount (but only if enough stock is available).
   def sell(self, amount):
     if amount > self._stock:
-      return "Not Enough Stocks"
+      return "Not enough stocks to sell!"
     else:
       self._stock -= amount
-      return f"Current stock: {self._stock}"
+      return f"Sold {amount} units of {self._name}. Remaining stock: {self._stock} units"
       
 
 # Create two products and perform the following actions:
@@ -39,3 +43,4 @@ print(product2.get_price())
 print(product1.add_stock(2))
 print(product2.sell(2))
 # Print the remaining stock after each operation.
+print(product1.get_stock())
