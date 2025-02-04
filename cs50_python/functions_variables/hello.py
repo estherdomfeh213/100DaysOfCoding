@@ -5,9 +5,12 @@ name = input("What's your name? ")
 #* Say hello to user 
 print("hello", name)
 
-print("hello," + name)
-print("hello, " + name)
+# print("hello," + name)
+# print("hello, " + name)
 
-print("hello, ", name )
+# print("hello, ", name )
 
-print("hello " + name + "!")
+# print("hello " + name + "!")
+
+
+#! reading python print fuction documentation 
