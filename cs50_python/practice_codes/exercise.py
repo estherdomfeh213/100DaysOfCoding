@@ -25,3 +25,31 @@ carname = "Volvo"
 # Create a variable named x and assign the value 50 to it.
 x = 50 
 
+# Pyhton multiple variable 
+x=y=z= "My name is Esther"
+print(x)
+print(y)
+print(z)
+
+# Insert the correct syntax to assign values to multiple variables in one line:
+#  "Orange", "Banana", "Cherry"
+
+x,y,z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+
+fruits = ['apple', 'banana', 'cherry']
+a, b, c = fruits 
+print(a)
+
+
+# * Python Global variable
+
+x = "awesome"  # this is a global variable 
+
+def myfunc():
+  x = 'fantastic'
+myfunc()
+print('Python is ' + x)
