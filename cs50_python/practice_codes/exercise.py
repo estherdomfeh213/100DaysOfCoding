@@ -53,3 +53,15 @@ def myfunc():
   x = 'fantastic'
 myfunc()
 print('Python is ' + x)
+
+# Convert x into float 
+x = 5 
+x = float(x)
+print(type(x))
+
+# Python complex number 
+x = complex(x)
+print(type(x))
+
+#! Python Casting: is the process of converting the value of one type into the value of another
+print(int(35.88))
