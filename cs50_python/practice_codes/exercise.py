@@ -7,3 +7,14 @@ print("Hello World")
 
 if 5 > 2:
   print("YES")
+  
+  
+# Comments in Python are written with a special character, which one?
+# This is a comment
+
+#* This is a comment
+
+# correct syntax to print data type 
+myvar = "esther"
+
+print(type(myvar))
