@@ -66,3 +66,22 @@ print(type(x))
 #! Python Casting: is the process of converting the value of one type into the value of another
 print(int(35.88))
 
+# Python Strings 
+# Get the first character of the string txt.
+txt = "Hello World"
+x = txt[0]
+print(x)
+
+
+# Insert the correct keyword to check if the word 'free' is present in the text:
+
+txt = 'The best things in life are free!'
+if 'free' in   txt:
+  print('Yes, free is present in the text.')
+  
+
+# Get the characters from index 2 to index 4 (llo).
+
+txt = "Hello World"
+x = txt[2:5]
+print(x)
