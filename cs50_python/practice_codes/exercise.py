@@ -65,3 +65,4 @@ print(type(x))
 
 #! Python Casting: is the process of converting the value of one type into the value of another
 print(int(35.88))
+
