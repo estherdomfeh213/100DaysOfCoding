@@ -18,3 +18,10 @@ if 5 > 2:
 myvar = "esther"
 
 print(type(myvar))
+
+# Create a variable named carname and assign the value Volvo to it
+carname = "Volvo"
+
+# Create a variable named x and assign the value 50 to it.
+x = 50 
+
