@@ -85,3 +85,19 @@ if 'free' in   txt:
 txt = "Hello World"
 x = txt[2:5]
 print(x)
+
+# Python Modify Strings 
+# What is a correct syntax to print a string in upper case letters?
+x = "Welcome".upper()
+print(x)
+
+# Remove whitespacce at the beginning and end
+print(x.strip())
+
+# Convert to lowercase 
+print(x.lower())
+
+# Replace the character H with a J.
+txt = "Hello World"
+txt = txt.replace('H','J')
+print(txt)
